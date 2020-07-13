@@ -12,7 +12,7 @@ read giturl
 echo "Please enter the name  for  your node project\n"
 
 read projectname
-cd /opt/
+cd /opt
 sleep 1
 
 git clone $giturl $projectname 
