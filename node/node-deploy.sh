@@ -26,5 +26,5 @@ cd $projectname
  npm install pm2@latest -g
  yarn
  yarn build
- pm2 start npm --name $projectname --log /var/log/portal.log
+ pm2 start npm --name $projectname  -- start
 
