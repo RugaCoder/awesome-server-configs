@@ -13,12 +13,11 @@ echo "Please enter the name  for  your node project\n"
 
 read projectname
 cd /opt/
+
 git clone $giturl $projectname 
 cd $projectname
 
-currentdir = pwd
-
-if $currentdir = $projectname
+if pwd = $projectname
 then
     npm install pm2@latest -g
     yarn
