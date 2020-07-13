@@ -22,6 +22,7 @@ sleep 1
 
 git clone $giturl $projectname 
 cd $projectname
+ npm install nuxt@latest -g
  npm install pm2@latest -g
  yarn
  yarn build
