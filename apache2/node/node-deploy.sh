@@ -13,6 +13,7 @@ echo "Please enter the name  for  your node project\n"
 
 read projectname
 cd /opt/
+sleep 1
 
 git clone $giturl $projectname 
 cd $projectname
