@@ -120,7 +120,7 @@ echo "####  $servn
         ServerName $servn
         ServerAlias $alias
         ServerAdmin $admin
-        DocomentRoot $dir$servn
+        DocumentRoot $dir$servn
 
 
         <Directory $dir$cname_$servn>
