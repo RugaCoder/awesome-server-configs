@@ -24,7 +24,7 @@ git clone $giturl $projectname
 cd $projectname
  npm install nuxt@latest -g
  npm install pm2@latest -g
- yarn
+ sudo npm install
  yarn build
  pm2 start npm --name $projectname  -- start
 
